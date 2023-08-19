@@ -1,0 +1,82 @@
+   ___       _   _                 
+  / _ \_   _| |_| |__   ___  _ __  
+ / /_)/ | | | __| '_ \ / _ \| '_ \ 
+/ ___/| |_| | |_| | | | (_) | | | |
+\/     \__, |\__|_| |_|\___/|_| |_|
+       |___/  ___ _  __  __                     _   _       _ 
+             /   (_)/ _|/ _| ___ _ __ ___ _ __ | |_(_) __ _| |
+            / /\ / | |_| |_ / _ \ '__/ _ \ '_ \| __| |/ _` | |
+           / /_//| |  _|  _|  __/ | |  __/ | | | |_| | (_| | |
+          /___,' |_|_| |_|  \___|_|  \___|_| |_|\__|_|\__,_|_|
+                       ___      _                       
+                      / _ \_ __(_)_   ____ _  ___ _   _ 
+                     / /_)/ '__| \ \ / / _` |/ __| | | |
+                    / ___/| |  | |\ V / (_| | (__| |_| |
+                    \/    |_|  |_| \_/ \__,_|\___|\__, |
+                                                  |___/ 
+--------------------------------------------------------------------------------
+
+This repository shows some example implementations of differential privacy[1]
+in Python via Jupyter Notebooks. Each notebook contains further references and
+information. This work may contain blunders, and it's accuracy has not been
+verified, however it should still be able to give you a good starting point
+for work with differential privacy.
+
+You can use nbviewer[2] or GitHub[3] to view the notebooks online.
+
+This work was completed under the guidance of Praneeth Vepakomma [4]
+
+1: https://en.wikipedia.org/wiki/Differential_privacy
+2: https://nbviewer.org
+3: https://github.com/acheam0/python_dp
+4: https://praneeth.mit.edu/
+
+--------------------------------------------------------------------------------
+
++-------+
+| INDEX |
++-------+
+
+- Approximate differential privacy (epsilon-delta):
+    - gaussian_mechanism.ipynb
+        
+- Bayes rule:
+    - bayesian_attacker.ipynb
+
+- Choice query:
+    - exponential_mechanism.ipynb
+
+- Clipping:
+    - laplace_example_class_height.ipynb
+
+- Compositions:
+    - gaussian_mechanism.ipynb
+ 
+- Exponential mechanism:
+    - exponential_mechanism.ipynb
+
+- Histogram query:
+    - laplace_mechanism.ipynb
+
+- Helper functions:
+    - common.py
+
+- Privacy loss distributions:
+    - gaussian_mechanism.ipynb
+
+- Privacy loss random variable:
+    - gaussian_mechanism.ipynb
+
+- Pure differential privacy (epsilon):
+    - laplace_example_class_height.ipynb
+    - laplace_mechanism.ipynb
+
+- Sum, count, mean queries:
+    - laplace_example_class_height.ipynb
+    - laplace_mechanism.ipynb
+
+In addition to these, there are some incomplete notebooks in the "Incomplete/"
+subdirectory.
+
+--------------------------------------------------------------------------------
+Copyright (c) 2023 Armaan Bhojwani <me@armaanb.net>, MIT License
